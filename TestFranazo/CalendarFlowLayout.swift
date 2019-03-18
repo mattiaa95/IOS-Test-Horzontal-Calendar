@@ -35,7 +35,7 @@ class CalendarFlowLayout: UICollectionViewFlowLayout {
   }
 
   func calculateOffset() -> CGFloat {
-    let sizeBetweenBoundAndCenteredView = (self.collectionView?.bounds.size.width)!/2 - cellWidth/2
+    let sizeBetweenBoundAndCenteredView = (self.collectionView?.bounds.size.width)!/2 + 105
     return sizeBetweenBoundAndCenteredView
   }
 }

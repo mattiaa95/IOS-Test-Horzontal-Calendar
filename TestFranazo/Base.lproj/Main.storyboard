@@ -20,7 +20,8 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P2b-YR-aPR" customClass="HorizontalCalendarView" customModule="TestFranazo">
                                 <rect key="frame" x="0.0" y="34" width="375" height="60"/>
-                                <color key="backgroundColor" red="0.89926615399618171" green="0.91433147041037199" blue="0.99145038032487043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.89926615399618171" green="0.91433147041037199" blue="0.99145038032487043" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKC-D3-qBE">
                                 <rect key="frame" x="0.0" y="102" width="375" height="565"/>
@@ -47,7 +48,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0" y="0"/>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
 </document>

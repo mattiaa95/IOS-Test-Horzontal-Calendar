@@ -40,7 +40,7 @@ open class HorizontalCalendarView: UIView {
   var dates : [Date] = []
   var displayedYears : [Int] = []
   var startingYear : Int?
-  var cellWidth : CGFloat = 80
+  var cellWidth : CGFloat = 50
   var activeIndexPath : IndexPath?
   
   var collectionViewTopConstraint : NSLayoutConstraint?

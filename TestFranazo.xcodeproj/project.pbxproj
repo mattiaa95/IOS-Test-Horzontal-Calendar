@@ -10,8 +10,14 @@
 		49E511DB223BC12B00B9051C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E511DA223BC12B00B9051C /* AppDelegate.swift */; };
 		49E511DD223BC12B00B9051C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E511DC223BC12B00B9051C /* ViewController.swift */; };
 		49E511E0223BC12B00B9051C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E511DE223BC12B00B9051C /* Main.storyboard */; };
-		49E511E2223BC12C00B9051C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E511E1223BC12C00B9051C /* Assets.xcassets */; };
 		49E511E5223BC12C00B9051C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E511E3223BC12C00B9051C /* LaunchScreen.storyboard */; };
+		49E511F7223BC2F900B9051C /* HorizontalCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E511F0223BC2F800B9051C /* HorizontalCalendarView.swift */; };
+		49E511F8223BC2F900B9051C /* HorizontalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E511F2223BC2F800B9051C /* HorizontalCalendar.swift */; };
+		49E511F9223BC2F900B9051C /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E511F3223BC2F800B9051C /* CalendarFlowLayout.swift */; };
+		49E511FA223BC2F900B9051C /* HorizontalCalendarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E511F4223BC2F800B9051C /* HorizontalCalendarDelegate.swift */; };
+		49E511FB223BC2F900B9051C /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E511F5223BC2F800B9051C /* CalendarCollectionViewCell.swift */; };
+		49E511FD223BCAF500B9051C /* CalendarCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 49E511F1223BC2F800B9051C /* CalendarCollectionViewCell.xib */; };
+		49E511FF223BD5B000B9051C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E511FE223BD5B000B9051C /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +25,15 @@
 		49E511DA223BC12B00B9051C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E511DC223BC12B00B9051C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49E511DF223BC12B00B9051C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		49E511E1223BC12C00B9051C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49E511E4223BC12C00B9051C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E511E6223BC12C00B9051C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E511F0223BC2F800B9051C /* HorizontalCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCalendarView.swift; sourceTree = "<group>"; };
+		49E511F1223BC2F800B9051C /* CalendarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCollectionViewCell.xib; sourceTree = "<group>"; };
+		49E511F2223BC2F800B9051C /* HorizontalCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCalendar.swift; sourceTree = "<group>"; };
+		49E511F3223BC2F800B9051C /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFlowLayout.swift; sourceTree = "<group>"; };
+		49E511F4223BC2F800B9051C /* HorizontalCalendarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCalendarDelegate.swift; sourceTree = "<group>"; };
+		49E511F5223BC2F800B9051C /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		49E511FE223BD5B000B9051C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +66,18 @@
 		49E511D9223BC12B00B9051C /* TestFranazo */ = {
 			isa = PBXGroup;
 			children = (
+				49E511F5223BC2F800B9051C /* CalendarCollectionViewCell.swift */,
+				49E511F1223BC2F800B9051C /* CalendarCollectionViewCell.xib */,
+				49E511F3223BC2F800B9051C /* CalendarFlowLayout.swift */,
+				49E511F2223BC2F800B9051C /* HorizontalCalendar.swift */,
+				49E511F4223BC2F800B9051C /* HorizontalCalendarDelegate.swift */,
+				49E511F0223BC2F800B9051C /* HorizontalCalendarView.swift */,
 				49E511DA223BC12B00B9051C /* AppDelegate.swift */,
 				49E511DC223BC12B00B9051C /* ViewController.swift */,
 				49E511DE223BC12B00B9051C /* Main.storyboard */,
-				49E511E1223BC12C00B9051C /* Assets.xcassets */,
 				49E511E3223BC12C00B9051C /* LaunchScreen.storyboard */,
 				49E511E6223BC12C00B9051C /* Info.plist */,
+				49E511FE223BD5B000B9051C /* Images.xcassets */,
 			);
 			path = TestFranazo;
 			sourceTree = "<group>";
@@ -122,8 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E511FF223BD5B000B9051C /* Images.xcassets in Resources */,
 				49E511E5223BC12C00B9051C /* LaunchScreen.storyboard in Resources */,
-				49E511E2223BC12C00B9051C /* Assets.xcassets in Resources */,
 				49E511E0223BC12B00B9051C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E511FD223BCAF500B9051C /* CalendarCollectionViewCell.xib in Sources */,
 				49E511DD223BC12B00B9051C /* ViewController.swift in Sources */,
+				49E511FB223BC2F900B9051C /* CalendarCollectionViewCell.swift in Sources */,
 				49E511DB223BC12B00B9051C /* AppDelegate.swift in Sources */,
+				49E511F7223BC2F900B9051C /* HorizontalCalendarView.swift in Sources */,
+				49E511F9223BC2F900B9051C /* CalendarFlowLayout.swift in Sources */,
+				49E511FA223BC2F900B9051C /* HorizontalCalendarDelegate.swift in Sources */,
+				49E511F8223BC2F900B9051C /* HorizontalCalendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -66,12 +66,7 @@
 		49E511D9223BC12B00B9051C /* TestFranazo */ = {
 			isa = PBXGroup;
 			children = (
-				49E511F5223BC2F800B9051C /* CalendarCollectionViewCell.swift */,
-				49E511F1223BC2F800B9051C /* CalendarCollectionViewCell.xib */,
-				49E511F3223BC2F800B9051C /* CalendarFlowLayout.swift */,
-				49E511F2223BC2F800B9051C /* HorizontalCalendar.swift */,
-				49E511F4223BC2F800B9051C /* HorizontalCalendarDelegate.swift */,
-				49E511F0223BC2F800B9051C /* HorizontalCalendarView.swift */,
+				49F9D5462240E08E00A0E379 /* HorizontalCalendar */,
 				49E511DA223BC12B00B9051C /* AppDelegate.swift */,
 				49E511DC223BC12B00B9051C /* ViewController.swift */,
 				49E511DE223BC12B00B9051C /* Main.storyboard */,
@@ -80,6 +75,27 @@
 				49E511FE223BD5B000B9051C /* Images.xcassets */,
 			);
 			path = TestFranazo;
+			sourceTree = "<group>";
+		};
+		49F9D5462240E08E00A0E379 /* HorizontalCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				49F9D5472240E0D500A0E379 /* CalendarCollectionViewCell */,
+				49E511F2223BC2F800B9051C /* HorizontalCalendar.swift */,
+				49E511F4223BC2F800B9051C /* HorizontalCalendarDelegate.swift */,
+				49E511F0223BC2F800B9051C /* HorizontalCalendarView.swift */,
+			);
+			path = HorizontalCalendar;
+			sourceTree = "<group>";
+		};
+		49F9D5472240E0D500A0E379 /* CalendarCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				49E511F5223BC2F800B9051C /* CalendarCollectionViewCell.swift */,
+				49E511F1223BC2F800B9051C /* CalendarCollectionViewCell.xib */,
+				49E511F3223BC2F800B9051C /* CalendarFlowLayout.swift */,
+			);
+			path = CalendarCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
